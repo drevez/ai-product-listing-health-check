@@ -1,3 +1,5 @@
-export function trackEvent(_eventName: string) {
+export function trackEvent(eventName: string) {
+  void eventName;
+
   return;
 }
